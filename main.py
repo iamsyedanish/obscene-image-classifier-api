@@ -10,7 +10,7 @@ from tensorflow.keras.models import load_model
 from pydantic import BaseModel
 
 # Path to your Firebase service account key file
-service_account_key_path = 'lostget-faafe-firebase-adminsdk-b6rif-ec885420b8.json'
+service_account_key_path = 'lostget_firebase_admin_sdk.json'
 
 cred = credentials.Certificate(service_account_key_path)
 firebase_admin.initialize_app(cred)
