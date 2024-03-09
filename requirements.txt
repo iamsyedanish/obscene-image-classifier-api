@@ -1,0 +1,9 @@
+firebase-admin
+fastapi
+uvicorn
+matplotlib
+aiohttp
+opencv-python-headless
+numpy
+tensorflow
+pydantic
